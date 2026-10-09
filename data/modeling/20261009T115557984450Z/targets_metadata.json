@@ -1,0 +1,67 @@
+{
+  "output_csv": "C:\\Users\\DELL\\Documents\\Codex\\2026-10-09\\https-github-com-frager098-halalifyai-tree\\outputs\\HalalifyAI-Local-Downloader\\data\\modeling\\20261009T115557984450Z\\model_dataset.csv",
+  "source_csv": "C:\\Users\\DELL\\Documents\\Codex\\2026-10-09\\https-github-com-frager098-halalifyai-tree\\outputs\\HalalifyAI-Local-Downloader\\data\\cleaned\\20261009T113225170383Z\\prices_clean.csv",
+  "source_sha256": "f5734f6b7e3d2e7e41a877834f1cb5210bcb6845e329543459e49eed84959d21",
+  "target_columns": [
+    "risk_volatility_next_20d",
+    "risk_class_next_20d"
+  ],
+  "feature_columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "adjusted_close",
+    "split_close_return",
+    "provider_all_adjusted_return",
+    "spy_return"
+  ],
+  "decision_time": "After session t closes; features use data through t.",
+  "volatility_definition": "sample_std(simple adjusted returns t+1 through t+20, ddof=1) * sqrt(252)",
+  "units": "Annualized decimal volatility; 0.30 means 30 percent annualized volatility.",
+  "classification_definition": "Pooled company training-row tertiles, fixed for validation/test.",
+  "class_boundaries": {
+    "low_upper_inclusive": 0.18252424999591094,
+    "medium_upper_inclusive": 0.2853689464062089
+  },
+  "validation_start": "2022-12-28",
+  "test_start": "2024-07-01",
+  "split_definition": "Shared XNYS sessions: first 70 percent train, next 15 percent validation, final 15 percent test; purge labels crossing boundaries.",
+  "rows": 124987,
+  "companies": 50,
+  "split_counts": {
+    "train": 86237,
+    "test": 17900,
+    "validation": 17850,
+    "purged": 2000,
+    "unlabeled": 1000
+  },
+  "class_counts": {
+    "medium": 43763,
+    "high": 40294,
+    "low": 39930
+  },
+  "unlabeled_rows": 1000,
+  "purged_rows": 2000,
+  "excluded_from_features": [
+    "risk_volatility_next_20d",
+    "risk_class_next_20d",
+    "target_window_end",
+    "dataset_split",
+    "source_row",
+    "dataset_version",
+    "ticker",
+    "session_date"
+  ],
+  "notes": [
+    "Both targets must be excluded from X for every model.",
+    "Purged and unlabeled rows must not enter model fitting or evaluation.",
+    "SPY is excluded as a modeled stock and supplies a contemporaneous benchmark feature.",
+    "No SEC features joined; this is the price-based modeling table.",
+    "Source corporate-action and identity verification remains unresolved; core_ready is unchanged.",
+    "The target is future price volatility, not a Shariah-compliance or fundamental-risk score."
+  ],
+  "output_sha256": "414aacbc570f6cb6ae0fff5bb4cc2e999b68583650c9e418963b1bcafcf26cb4",
+  "verification": "Passed independent forward-window calculations, split isolation, feature exclusion and CSV readback."
+}

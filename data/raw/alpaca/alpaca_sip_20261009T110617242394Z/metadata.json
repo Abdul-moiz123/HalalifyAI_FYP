@@ -1,0 +1,238 @@
+{
+  "dataset_version": "alpaca_sip_20261009T110617242394Z",
+  "provider": "alpaca_sip",
+  "status": "collected_requires_action_and_calendar_review",
+  "retrieved_at": "2026-10-09T11:06:17.246401+00:00",
+  "pages": [
+    {
+      "file": "split_0001.json",
+      "sha256": "fcc7b2c54be6f948b64d11442ae9c4ad162d5651c3bae99169f4d9f0f1da6c76",
+      "retrieved_at": "2026-10-09T11:06:19.799256+00:00"
+    },
+    {
+      "file": "split_0002.json",
+      "sha256": "10d6a54d8e128ee9d4820b0cf92a2bb856802b9eda9724636e33614c20ddc767",
+      "retrieved_at": "2026-10-09T11:06:21.164346+00:00"
+    },
+    {
+      "file": "split_0003.json",
+      "sha256": "595cbf8072e58e7f0aa657078af664ed3cb6678e61175660685e05485721481c",
+      "retrieved_at": "2026-10-09T11:06:22.564253+00:00"
+    },
+    {
+      "file": "split_0004.json",
+      "sha256": "88bd6ee8a7dc0555ef94fe2f17fd2c6750795584fa54a1f32609f159a8c0db00",
+      "retrieved_at": "2026-10-09T11:06:23.998021+00:00"
+    },
+    {
+      "file": "split_0005.json",
+      "sha256": "fec318279400f9412684e8251511c1603fc86db48df5b2f6c4a37f8eab81f4cc",
+      "retrieved_at": "2026-10-09T11:06:25.443266+00:00"
+    },
+    {
+      "file": "split_0006.json",
+      "sha256": "a723a57485df3308922af6ad6182f0b8cb0f58d9b710b642378e02d0c62ee702",
+      "retrieved_at": "2026-10-09T11:06:26.764782+00:00"
+    },
+    {
+      "file": "split_0007.json",
+      "sha256": "8e198d96536db1381e49c9934999d75246e43f3253ba01a166f0f32564bdd333",
+      "retrieved_at": "2026-10-09T11:06:28.142034+00:00"
+    },
+    {
+      "file": "split_0008.json",
+      "sha256": "75d4d32d18fa1c66e4ae3985a7a7febef9402ccb2ad2265bbcb8248e8d4e8139",
+      "retrieved_at": "2026-10-09T11:06:29.506516+00:00"
+    },
+    {
+      "file": "split_0009.json",
+      "sha256": "43977810645830a7564603b168da49f26e0bb52c07867c4a91f244c1c6b21e9f",
+      "retrieved_at": "2026-10-09T11:06:30.862175+00:00"
+    },
+    {
+      "file": "split_0010.json",
+      "sha256": "27dc784de69f1bca47c16451e89272b30569e9a1e5ed9428dce9a62d51d326f3",
+      "retrieved_at": "2026-10-09T11:06:32.119732+00:00"
+    },
+    {
+      "file": "split_0011.json",
+      "sha256": "b15c47c05bf3c525985373e5731ac481daa99da17225c96e489c698185a6957d",
+      "retrieved_at": "2026-10-09T11:06:33.407497+00:00"
+    },
+    {
+      "file": "split_0012.json",
+      "sha256": "e63a057f27c66e3d78ea6c5b6003c9bdcbb3295357209124a366f83e3ef62109",
+      "retrieved_at": "2026-10-09T11:06:34.793750+00:00"
+    },
+    {
+      "file": "split_0013.json",
+      "sha256": "d45fc812b4dff7900a4a799977d2baa9fde2ffcb2a7643075824b51618aef3f8",
+      "retrieved_at": "2026-10-09T11:06:35.965889+00:00"
+    },
+    {
+      "file": "all_0001.json",
+      "sha256": "1c3af48fa5121859f163298fc77d8fadb446aa1ca3091d513987b932b2ec7e17",
+      "retrieved_at": "2026-10-09T11:06:36.998686+00:00"
+    },
+    {
+      "file": "all_0002.json",
+      "sha256": "bad5a2693d6104e7c6995e04752aba1e2dc6007d2a9928931b4e8f574f2f7dcc",
+      "retrieved_at": "2026-10-09T11:06:38.348873+00:00"
+    },
+    {
+      "file": "all_0003.json",
+      "sha256": "80fdbffb59041d522b48dbb88239d14c9f87529a3766af94a77b140028eed3a0",
+      "retrieved_at": "2026-10-09T11:06:39.666353+00:00"
+    },
+    {
+      "file": "all_0004.json",
+      "sha256": "6722a4d5630988bb6338b2a237968c3da8a9b5eb2c6e6c94aaedcf089cab9aef",
+      "retrieved_at": "2026-10-09T11:06:40.983178+00:00"
+    },
+    {
+      "file": "all_0005.json",
+      "sha256": "04daffaf1c74b41ad47aed5501da27cf342ff8b5b0041b127a17a5a1093ab87e",
+      "retrieved_at": "2026-10-09T11:06:42.302124+00:00"
+    },
+    {
+      "file": "all_0006.json",
+      "sha256": "9aea87aca823e7ba1ed3c89617af43bdd284ae21e6335733c13c8d861225fa71",
+      "retrieved_at": "2026-10-09T11:06:43.710463+00:00"
+    },
+    {
+      "file": "all_0007.json",
+      "sha256": "98ab12d71d07496f0d82903aff3614e5fb911feadfc407e6814ed8952aa43b60",
+      "retrieved_at": "2026-10-09T11:06:45.125283+00:00"
+    },
+    {
+      "file": "all_0008.json",
+      "sha256": "b0ab5e61ecd2a7ac8d3a73659aa64c1ebb229b9e641e0b8cbccb4c1f69af20ca",
+      "retrieved_at": "2026-10-09T11:06:46.548926+00:00"
+    },
+    {
+      "file": "all_0009.json",
+      "sha256": "473970abd729ff78811f63406db74f98738b69763676a4007ccafadac4f6a844",
+      "retrieved_at": "2026-10-09T11:06:47.917982+00:00"
+    },
+    {
+      "file": "all_0010.json",
+      "sha256": "91dde7428172c4dbda84ab07c1290adaeadb5db34b80dbea7521adeaaaeb57e3",
+      "retrieved_at": "2026-10-09T11:06:49.329283+00:00"
+    },
+    {
+      "file": "all_0011.json",
+      "sha256": "6fb6f940032f11ce24a23cd98ccf1571f05f3d95160cbc9d2e6e02efcc06f01b",
+      "retrieved_at": "2026-10-09T11:06:50.700652+00:00"
+    },
+    {
+      "file": "all_0012.json",
+      "sha256": "47292965d33c3fa238354b8ca17f18a985b74cea99adfd17020cfd32648eb5d7",
+      "retrieved_at": "2026-10-09T11:06:52.065818+00:00"
+    },
+    {
+      "file": "all_0013.json",
+      "sha256": "761d320723a42ea7340218325a49598f417729b508c72c720962366f74320a84",
+      "retrieved_at": "2026-10-09T11:06:53.183168+00:00"
+    }
+  ],
+  "requested_symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "ORCL",
+    "ADBE",
+    "CRM",
+    "CSCO",
+    "INTC",
+    "GOOGL",
+    "META",
+    "NFLX",
+    "AMZN",
+    "TSLA",
+    "HD",
+    "LOW",
+    "NKE",
+    "SBUX",
+    "MCD",
+    "COST",
+    "WMT",
+    "JNJ",
+    "LLY",
+    "ABBV",
+    "MRK",
+    "TMO",
+    "ABT",
+    "DHR",
+    "CAT",
+    "DE",
+    "HON",
+    "UPS",
+    "UNP",
+    "GE",
+    "XOM",
+    "CVX",
+    "COP",
+    "SLB",
+    "JPM",
+    "BAC",
+    "GS",
+    "MS",
+    "V",
+    "MA",
+    "PG",
+    "KO",
+    "PEP",
+    "LIN",
+    "NEE",
+    "SPY"
+  ],
+  "requested_start": "2016-01-01",
+  "requested_end": "2025-12-31",
+  "adjustment_verified": false,
+  "ohlc_share_basis": "split_adjusted",
+  "volume_share_basis": "split_adjusted",
+  "adjusted_close_policy": "Alpaca adjustment=all: split, dividend, spin-off",
+  "core_ready": false,
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.4.6",
+    "requests": "2.34.2"
+  },
+  "source_requests": [
+    {
+      "endpoint": "https://data.alpaca.markets/v2/stocks/bars",
+      "parameters": {
+        "symbols": "AAPL,MSFT,NVDA,AMD,AVGO,ORCL,ADBE,CRM,CSCO,INTC,GOOGL,META,NFLX,AMZN,TSLA,HD,LOW,NKE,SBUX,MCD,COST,WMT,JNJ,LLY,ABBV,MRK,TMO,ABT,DHR,CAT,DE,HON,UPS,UNP,GE,XOM,CVX,COP,SLB,JPM,BAC,GS,MS,V,MA,PG,KO,PEP,LIN,NEE,SPY",
+        "timeframe": "1Day",
+        "start": "2016-01-01T00:00:00-05:00",
+        "end": "2025-12-31T23:59:59-05:00",
+        "feed": "sip",
+        "currency": "USD",
+        "adjustment": "split",
+        "limit": 10000,
+        "sort": "asc",
+        "asof": "2025-12-31"
+      }
+    },
+    {
+      "endpoint": "https://data.alpaca.markets/v2/stocks/bars",
+      "parameters": {
+        "symbols": "AAPL,MSFT,NVDA,AMD,AVGO,ORCL,ADBE,CRM,CSCO,INTC,GOOGL,META,NFLX,AMZN,TSLA,HD,LOW,NKE,SBUX,MCD,COST,WMT,JNJ,LLY,ABBV,MRK,TMO,ABT,DHR,CAT,DE,HON,UPS,UNP,GE,XOM,CVX,COP,SLB,JPM,BAC,GS,MS,V,MA,PG,KO,PEP,LIN,NEE,SPY",
+        "timeframe": "1Day",
+        "start": "2016-01-01T00:00:00-05:00",
+        "end": "2025-12-31T23:59:59-05:00",
+        "feed": "sip",
+        "currency": "USD",
+        "adjustment": "all",
+        "limit": 10000,
+        "sort": "asc",
+        "asof": "2025-12-31"
+      }
+    }
+  ],
+  "normalized_csv": "C:\\Users\\DELL\\Documents\\Codex\\2026-10-09\\https-github-com-frager098-halalifyai-tree\\outputs\\HalalifyAI-Local-Downloader\\data\\interim\\prices\\alpaca_sip_20261009T110617242394Z\\daily_prices.csv",
+  "normalized_sha256": "f3f4d0a282e96636236b8fcb945c9750b559cbfef0852293c51c91b204d8fb3d",
+  "coverage_report_uri": "C:\\Users\\DELL\\Documents\\Codex\\2026-10-09\\https-github-com-frager098-halalifyai-tree\\outputs\\HalalifyAI-Local-Downloader\\reports\\validation\\alpaca_sip_20261009T110617242394Z\\price_coverage.csv"
+}
